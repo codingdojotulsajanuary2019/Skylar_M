@@ -1,0 +1,11 @@
+body *{
+    margin: 0;
+    padding: 0px;
+}
+div.container{
+    margin: 100px auto;
+    width: 182px;
+}
+img{
+    margin: 0px;
+}

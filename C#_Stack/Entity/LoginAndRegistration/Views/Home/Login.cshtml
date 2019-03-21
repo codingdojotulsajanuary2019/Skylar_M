@@ -1,0 +1,18 @@
+@model LoginUser
+<div class="container col-10 offset-1">
+    <h1 class="border-bottom">Enter Email and Password to Log-in</h1>
+    <form class="mt-4" asp-action="logging" asp-controller="Home" method="post">
+        <div class="col-6 mb-3 p-0">
+            <span class="text-danger" asp-validation-for="Email"></span>
+            <input type="text" asp-for="Email" class="form-control form-control-lg" placeholder="Email Address">
+        </div>
+        <div class="col-6 mb-3 p-0">
+            <span class="text-danger" asp-validation-for="Password"></span>
+            <input type="text" asp-for="Password" class="form-control form-control-lg" placeholder="Password">
+        </div>
+        <input class="btn btn-lg btn-outline-primary" type="submit" value="Submit">
+    </form>
+    <div class="container pt-5">
+        <a href="/">Haven't created an account yet?</a>
+    </div>
+</div>

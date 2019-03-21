@@ -1,0 +1,33 @@
+﻿@model User
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<div class="container col-10 offset-1">
+    <h1 class="border-bottom">Enter Your Information</h1>
+    <form class="mt-4" asp-action="register" asp-controller="Home" method="post">
+        <div class="form-row mb-3">
+            <div class="col">
+                <span class="text-danger" asp-validation-for="FirstName"></span>
+                <input type="text" asp-for="FirstName" class="form-control form-control-lg" placeholder="First name">
+            </div>
+            <div class="col">
+                <span class="text-danger" asp-validation-for="LastName"></span>
+                <input type="text" asp-for="LastName" class="form-control form-control-lg" placeholder="Last name">
+            </div>
+        </div>
+        <div class="col-6 mb-3 p-0">
+            <span class="text-danger" asp-validation-for="Email"></span>
+            <input type="text" asp-for="Email" class="form-control form-control-lg" placeholder="Email Address">
+        </div>
+        <div class="col-6 mb-3 p-0">
+            <span class="text-danger" asp-validation-for="Password"></span>
+            <input type="text" asp-for="Password" class="form-control form-control-lg" placeholder="Password">
+        </div>
+        <div class="col-6 mb-3 p-0">
+            <span class="text-danger" asp-validation-for="Confirm"></span>
+            <input type="text" asp-for="Confirm" class="form-control form-control-lg" placeholder="Confirm Password">
+        </div>
+        <input class="btn btn-lg btn-outline-primary" type="submit" value="Submit">
+    </form>
+    <div class="container pt-5">
+        <a href="/login">Already an existing user?</a>
+    </div>
+</div>

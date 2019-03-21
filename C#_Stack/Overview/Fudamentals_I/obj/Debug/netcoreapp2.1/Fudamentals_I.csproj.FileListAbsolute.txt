@@ -1,0 +1,11 @@
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Fudamentals_I/bin/Debug/netcoreapp2.1/Fudamentals_I.deps.json
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Fudamentals_I/bin/Debug/netcoreapp2.1/Fudamentals_I.runtimeconfig.json
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Fudamentals_I/bin/Debug/netcoreapp2.1/Fudamentals_I.runtimeconfig.dev.json
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Fudamentals_I/bin/Debug/netcoreapp2.1/Fudamentals_I.dll
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Fudamentals_I/bin/Debug/netcoreapp2.1/Fudamentals_I.pdb
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Fudamentals_I/obj/Debug/netcoreapp2.1/Fudamentals_I.csprojAssemblyReference.cache
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Fudamentals_I/obj/Debug/netcoreapp2.1/Fudamentals_I.csproj.CoreCompileInputs.cache
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Fudamentals_I/obj/Debug/netcoreapp2.1/Fudamentals_I.AssemblyInfoInputs.cache
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Fudamentals_I/obj/Debug/netcoreapp2.1/Fudamentals_I.AssemblyInfo.cs
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Fudamentals_I/obj/Debug/netcoreapp2.1/Fudamentals_I.dll
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Fudamentals_I/obj/Debug/netcoreapp2.1/Fudamentals_I.pdb

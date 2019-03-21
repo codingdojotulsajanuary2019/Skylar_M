@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Welcome!</title>
+    <style>
+        .bigbox{
+            width: 65%;
+        }
+        h1{
+            margin-bottom: 15px;
+        }
+        .btn-outline-secondary{
+            height: 40px;
+            width: 120px;
+        }
+        div.header {
+            margin-top: 20px;
+        }
+        h1{
+            display: inline-block;
+        }
+        
+        a{
+            text-decoration-line: underline;
+            font-size: 16pt;
+            display: inline-block;
+            margin-right: 30px;
+            margin-left: 260px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid bigbox">
+        <div class="header">
+            <h1>Add a New User</h1>
+            <a class='home' href="/users">Home</a>
+        </div>
+        <div class="container formbox">
+            <form action="/adduser" method="post">
+                <h6>Full Name:</h5>
+                <textarea name="fname" cols="35" rows="1"></textarea>
+                <hr>
+                <h6>Email:</h5>
+                <textarea name="email" cols="35" rows="1"></textarea>
+                <hr>
+                <input class='btn-outline-secondary' type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

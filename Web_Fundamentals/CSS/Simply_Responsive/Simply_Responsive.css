@@ -1,0 +1,49 @@
+body *{
+    margin: 0;
+    padding: 0;
+    outline: 1 px solid red;
+}
+div.container{
+    width: 100%;
+    margin: 5px;
+}
+    div.container .top{
+        height: 60%;
+        background-color: rgb(139, 139, 139);
+        font-size: 3.25em;
+        padding: 10px;
+    }
+    div.container .mid{
+        height: 60%;
+        background-color: rgb(201, 201, 201);
+        font-size: 1.5em;
+        padding: 10px;
+
+    }
+    div.container .bottom{
+        color: black;
+        padding: 30px;
+        background-color: gold;
+        font-size: 1.25em;
+    }
+            div.container span{
+                font-weight: bold;
+            }
+
+    
+    @media only screen and (max-width: 480px){
+        .lg1 .md2{
+            display: none;
+        }
+
+    }
+    @media only screen and (min-width: 481px){
+        .lg1 .sm3{
+            display: none;
+        }
+    }
+    @media only screen and (min-width: 1024px){
+        .md2 .sm3{
+            display: none;
+        }
+    }

@@ -1,0 +1,22 @@
+/Users/JB/Documents/codingDojo/cStack/human/obj/Debug/netcoreapp2.1/human.csprojAssemblyReference.cache
+/Users/JB/Documents/codingDojo/cStack/human/obj/Debug/netcoreapp2.1/human.csproj.CoreCompileInputs.cache
+/Users/JB/Documents/codingDojo/cStack/human/obj/Debug/netcoreapp2.1/human.AssemblyInfoInputs.cache
+/Users/JB/Documents/codingDojo/cStack/human/obj/Debug/netcoreapp2.1/human.AssemblyInfo.cs
+/Users/JB/Documents/codingDojo/cStack/human/bin/Debug/netcoreapp2.1/human.deps.json
+/Users/JB/Documents/codingDojo/cStack/human/bin/Debug/netcoreapp2.1/human.runtimeconfig.json
+/Users/JB/Documents/codingDojo/cStack/human/bin/Debug/netcoreapp2.1/human.runtimeconfig.dev.json
+/Users/JB/Documents/codingDojo/cStack/human/bin/Debug/netcoreapp2.1/human.dll
+/Users/JB/Documents/codingDojo/cStack/human/bin/Debug/netcoreapp2.1/human.pdb
+/Users/JB/Documents/codingDojo/cStack/human/obj/Debug/netcoreapp2.1/human.dll
+/Users/JB/Documents/codingDojo/cStack/human/obj/Debug/netcoreapp2.1/human.pdb
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/human 2/bin/Debug/netcoreapp2.1/human.deps.json
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/human 2/bin/Debug/netcoreapp2.1/human.runtimeconfig.json
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/human 2/bin/Debug/netcoreapp2.1/human.runtimeconfig.dev.json
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/human 2/bin/Debug/netcoreapp2.1/human.dll
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/human 2/bin/Debug/netcoreapp2.1/human.pdb
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/human 2/obj/Debug/netcoreapp2.1/human.csprojAssemblyReference.cache
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/human 2/obj/Debug/netcoreapp2.1/human.csproj.CoreCompileInputs.cache
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/human 2/obj/Debug/netcoreapp2.1/human.AssemblyInfoInputs.cache
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/human 2/obj/Debug/netcoreapp2.1/human.AssemblyInfo.cs
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/human 2/obj/Debug/netcoreapp2.1/human.dll
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/human 2/obj/Debug/netcoreapp2.1/human.pdb

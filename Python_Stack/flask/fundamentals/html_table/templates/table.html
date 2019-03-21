@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Table</title>
+    <style>
+        /* body * {
+            outline: 1px solid pink;
+        } */
+        div.container{
+            height: 1000px;
+        }
+        div.header{
+            height: 60px;
+        }
+        div.container table{
+            outline: 2px solid black;
+            width: 30%;
+            background-color: #a1a1a1;
+        }
+        div.container thead{
+            background-color: #a1a1a1;
+        }
+        div.container tr{
+            outline: 1px solid #000000;
+            background-color: #dddddd
+        }
+        div.container td, th{
+            padding: 4px;
+            font-size: 14pt;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>HTML Table</h1>
+        </div>
+        <table>
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for user in users %}
+                        <tr>
+                            <td>{{ user['first_name'] }}</td>
+                            <td>{{ user['last_name'] }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+    </div>
+</body>
+</html>

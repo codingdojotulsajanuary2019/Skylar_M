@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        div.container-fluid{
+            width: 65%;
+        }
+        div.header {
+            margin-top: 20px;
+        }
+        div.infobox{
+            outline: 1px solid pink;
+        }
+        a{
+            text-decoration-line: underline;
+            font-size: 16pt;
+            display: inline-block;
+            margin-right: 30px;
+        }
+        a.home{
+            margin-left: 260px;
+        }
+        div.header h1{
+            display: inline-block;
+        }
+    </style>
+    <title>{{ userinfo['full_name'] }}'s Profile</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="header">
+            <h1>{{ userinfo['full_name'] }}'s Profile</h1>
+            <a class='home' href="/users">Home</a>
+        </div>
+        <hr>
+        <div class="info-box">
+            <h5>Full Name:</h5>
+            <p>{{ userinfo['full_name'] }}</p>
+            <h5>Email:</h5>
+            <p>{{ userinfo['email'] }}</p>
+            <h5>Created At:</h5>
+            <p>{{ userinfo['created_at'] }}</p>
+            <h5>Updated At:</h5>
+            <p>{{ userinfo['updated_at'] }}</p>
+        </div>
+        <hr>
+        <div class='edit'>
+                <a href="/users/{{ userinfo['id'] }}/edit">Edit</a>
+                <a href="/delete_user/{{ userinfo['id'] }}">Delete</a>
+        </div>
+    </div>
+</body>
+</html>

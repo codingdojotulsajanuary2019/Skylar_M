@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title></title>
+    <style>
+        body{
+            background-color: #d3fffb;
+        }
+        div.header{
+            margin-top: 60px;
+            padding: 3%;
+        }
+        div.header h1{
+            font-size: 320%;
+        }
+        div.body h3.take{
+            margin-bottom: 10px;
+        }
+        div.body .result{
+            height: 200px;
+            width: 300px;
+            font-size: 20pt;
+            padding-top: 60px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body class="container-fluid text-center text-secondary">
+    <div class="container">
+        <div class="header">
+            <h1>Welcome to the Great Number Game!</h1>
+        </div>
+        <div class="body">
+            <h3>I am thinking of a number between 1 and 100</h3>
+            <h3 class="take">Take a guess!</h3>
+            {% if player_num %}
+                {% if player_num == cpu %}
+                    <div class="container-fluid bg-success text-light result">{{ cpu }} was the number! You Win!</div>
+                {% endif %}
+                {% if player_num > cpu %}
+                    <div class="container-fluid bg-danger text-light result">Too High!</div>
+                {% endif %}
+                {% if player_num < cpu %}
+                    <div class="container-fluid bg-danger text-light result">Too Low!</div>
+                {% endif %}
+            {% endif %}
+            <form action="/process" method="post">
+                <input type="text" name="guess_num">
+                <input class='btn btn-outline-secondary' type="submit" value="submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

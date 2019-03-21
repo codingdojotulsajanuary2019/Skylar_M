@@ -1,0 +1,12 @@
+pip install Django==1.11.9 - Downloaded and installed the specified version of Django and pytz packages
+pip list                   - List installed packages, including editables. Packages are listed in a case-insensitive sorted order.
+deactivate                 - Exits virtual environment
+pip3 list                  - List installed packages that exist and are running outside of virtual environments
+source py3Env/bin/activate - Entered specified virtual environment
+pip install Django==1.11.9 - Declared that the requirement had already been satisfied
+pip freeze                 - Before you can start deploying your application you first must freeze it’s Python package dependencies. Freezing is a process where pip reads the versions of all installed packages in a local virtual                               environment and then produces a text file with the package version for each python package specified. By convention, it’s named requirements.txt.
+cd ~/Desktop; pip freeze > requirements.txt - Inside this file are my desktop apps and a file called requirements.txt
+pip uninstall Django       - Uninstalled Django from the environment
+pip show Django            - Show information about one or more installed packages.
+pip search Flask           - Search for PyPI packages whose name or summary contains <query>.
+

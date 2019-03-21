@@ -1,0 +1,11 @@
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/W_N_S/bin/Debug/netcoreapp2.1/W_N_S.deps.json
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/W_N_S/bin/Debug/netcoreapp2.1/W_N_S.runtimeconfig.json
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/W_N_S/bin/Debug/netcoreapp2.1/W_N_S.runtimeconfig.dev.json
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/W_N_S/bin/Debug/netcoreapp2.1/W_N_S.dll
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/W_N_S/bin/Debug/netcoreapp2.1/W_N_S.pdb
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/W_N_S/obj/Debug/netcoreapp2.1/W_N_S.csprojAssemblyReference.cache
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/W_N_S/obj/Debug/netcoreapp2.1/W_N_S.csproj.CoreCompileInputs.cache
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/W_N_S/obj/Debug/netcoreapp2.1/W_N_S.AssemblyInfoInputs.cache
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/W_N_S/obj/Debug/netcoreapp2.1/W_N_S.AssemblyInfo.cs
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/W_N_S/obj/Debug/netcoreapp2.1/W_N_S.dll
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/W_N_S/obj/Debug/netcoreapp2.1/W_N_S.pdb

@@ -1,0 +1,11 @@
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Boxing/bin/Debug/netcoreapp2.1/Boxing.deps.json
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Boxing/bin/Debug/netcoreapp2.1/Boxing.runtimeconfig.json
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Boxing/bin/Debug/netcoreapp2.1/Boxing.runtimeconfig.dev.json
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Boxing/bin/Debug/netcoreapp2.1/Boxing.dll
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Boxing/bin/Debug/netcoreapp2.1/Boxing.pdb
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Boxing/obj/Debug/netcoreapp2.1/Boxing.csprojAssemblyReference.cache
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Boxing/obj/Debug/netcoreapp2.1/Boxing.csproj.CoreCompileInputs.cache
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Boxing/obj/Debug/netcoreapp2.1/Boxing.AssemblyInfoInputs.cache
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Boxing/obj/Debug/netcoreapp2.1/Boxing.AssemblyInfo.cs
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Boxing/obj/Debug/netcoreapp2.1/Boxing.dll
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Boxing/obj/Debug/netcoreapp2.1/Boxing.pdb

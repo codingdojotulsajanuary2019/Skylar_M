@@ -1,0 +1,27 @@
+.top{
+    display: inline-block;
+}
+.red{
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 34pt;
+    text-decoration-line: underline;
+}
+
+.para{
+    display: none;
+}
+.body{
+    width: 100%;
+    height: 200px;
+    outline: 2px solid rgb(255, 255, 255);
+}
+button{
+    height: 50px;
+    width: 100px;
+    display: inline-block;
+    margin-left: 200px;
+}
+.para2{
+    color: blue;
+}

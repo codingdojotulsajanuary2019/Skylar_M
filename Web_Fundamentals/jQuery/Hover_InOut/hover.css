@@ -1,0 +1,16 @@
+body *{
+    margin: 0px;
+    padding: 0px;
+}
+div.row{
+    width: 1220px;
+    height: 305px;
+    outline: 4px solid black;
+    margin-top: 10px;
+}
+div.row .img1{
+    height: 280px;
+    margin: 10px; 
+    outline: 4px solid black;
+    display: inline-block;
+}

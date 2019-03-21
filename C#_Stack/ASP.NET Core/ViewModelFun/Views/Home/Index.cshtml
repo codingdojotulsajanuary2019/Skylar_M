@@ -1,0 +1,8 @@
+﻿@using ViewModelFun.Models
+@model string[]
+
+<h1>Here is a list of names.</h1>
+<p>Brought to you by rendering from a model!</p>
+@foreach(var name in Model){
+    <h5>@name</h5>
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Pets</title>
+    <style>
+        .tablebox{
+            width: 65%;
+        }
+        div.tablebox h1{
+            margin-bottom: 0px;
+            margin-top: 30px;
+        }
+        .forminst{
+            font-size: 16pt;
+        }
+        div.box{
+            height: 60px;
+        }
+        input.button{
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body class="text-secondary">
+    <div class="container-fluid tablebox">
+        <h1 class="bg-info text-center text-light">Pets</h1>
+        <table class="table table-striped">
+            <thead>
+                <tr class="bg-secondary text-light">
+                    <th>ID:</th>
+                    <th>Name:</th>
+                    <th>Type:</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for one_pet in all_pets %}
+                <tr>
+                    <td>{{one_pet["id"]}}</td>
+                    <td>{{one_pet["name"]}}</td>
+                    <td>{{one_pet["type"]}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <hr>
+        <div class="box"></div>
+        <p class="secondary forminst">Please complete the form below to add pets to the table.</p>
+        <form action="/add_pet" method="post">
+        <p>Pet Name:</p><input type="text" name="pet_name" id="">
+        <p>Pet Type:</p><input type="text" name="pet_type" id="">
+        <input class="button btn-outline-info" type="submit" value="Add Pet">
+        </form>
+
+
+    </div>
+</body>
+</html>

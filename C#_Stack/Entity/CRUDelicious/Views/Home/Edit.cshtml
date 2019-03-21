@@ -1,0 +1,45 @@
+@using CRUDelicious.Models
+@model Dish
+
+<div class="container-fluid">
+    <div class="header container-fluid text-center mb-5">
+        <h1 class="title">Welcome to CRUDelicious</h1>
+    </div>
+    <div class="subheader container-fluid">
+        <h3 class="border-bottom d-inline-block col-8 pb-3">Edit Dish!</h3>
+        <a href="/" class="d-inline-block col-2 offset-1">Home</a>
+    </div>
+    <div class="new-dish-form col-8 mt-3">
+        <form action="/@Model.Id/update" method="post">
+            <div class="form-group">
+                <h5>Dish Name</h5>
+                <input class="form-control col-8" type="text" name="Name" value="@Model.Name">
+            </div>
+            <div class="form-group">
+                <h5>Creator</h5>
+                <input class="form-control col-7" type="text" name="Chef" value="@Model.Chef">
+            </div>
+            <div class="form-group">
+                <h5>Tastiness</h5>
+                <select class="form-control col-1" name="Tastiness" value="@Model.Tastiness">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <h5>Calories</h5>
+                <input class="form-control col-2" type="number" name="Calories" value="@Model.Calories">
+            </div>
+            <div class="form-group">
+                <h5>Description</h5>
+                <textarea class="form-control" name="Decsription" cols="30" rows="8">@Model.Decsription</textarea>
+            </div>
+            <div class="form-group">
+                <input type="submit" class="btn btn-primary">
+            </div>
+        </form>
+    </div>
+</div>

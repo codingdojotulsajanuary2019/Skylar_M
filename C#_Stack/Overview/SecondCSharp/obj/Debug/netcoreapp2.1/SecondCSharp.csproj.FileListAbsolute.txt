@@ -1,0 +1,11 @@
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/SecondCSharp/bin/Debug/netcoreapp2.1/SecondCSharp.deps.json
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/SecondCSharp/bin/Debug/netcoreapp2.1/SecondCSharp.runtimeconfig.json
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/SecondCSharp/bin/Debug/netcoreapp2.1/SecondCSharp.runtimeconfig.dev.json
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/SecondCSharp/bin/Debug/netcoreapp2.1/SecondCSharp.dll
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/SecondCSharp/bin/Debug/netcoreapp2.1/SecondCSharp.pdb
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/SecondCSharp/obj/Debug/netcoreapp2.1/SecondCSharp.csprojAssemblyReference.cache
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/SecondCSharp/obj/Debug/netcoreapp2.1/SecondCSharp.csproj.CoreCompileInputs.cache
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/SecondCSharp/obj/Debug/netcoreapp2.1/SecondCSharp.AssemblyInfoInputs.cache
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/SecondCSharp/obj/Debug/netcoreapp2.1/SecondCSharp.AssemblyInfo.cs
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/SecondCSharp/obj/Debug/netcoreapp2.1/SecondCSharp.dll
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/SecondCSharp/obj/Debug/netcoreapp2.1/SecondCSharp.pdb

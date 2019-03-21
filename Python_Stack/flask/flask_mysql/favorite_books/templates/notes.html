@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+    <title>Profile</title>
+</head>
+<body>
+    <div class="bg3 container-fluid p-0">
+        <div class="header border-radius-bottom text-center m-0">
+            <h1 class="text-center d-inline-block text-light">Favorite Books</h1>
+        </div>
+        <div class="text-left leftbar d-inline-block col-2 pt-4 pb-4 m-0 mr-4">
+            <div class="name border-bottom border-light">
+                <h3 class="text-light">The Library</h3>
+            </div>
+            <div class="mt-5">
+                {% for user in all_users %}
+                    {% if user['id'] == session['user_id'] %}
+                        <h5 class="text-light">User: {{ user['first_name'] }} </h5>
+                    {%endif%}
+                {%endfor%}
+            </div>
+            <div class="mt-5">
+                {% for user in all_users %}
+                    {% if user['id'] == session['user_id'] %}
+                        <h5 class="text-light">Joined: </h5><p class="text-light">{{ user['created_at']|humanize()}}</p>
+                    {%endif%}
+                {%endfor%}
+            </div>
+            <div class="mt-5">
+                <h5 class="text-light d-inline-block">Books Added: </h5>
+                {% for user in all_users %}
+                    {% if user['id'] == session['user_id'] %}
+                        <p class="numadded text-light d-inline-block">6</p>
+                    {%endif%}
+                {%endfor%}
+            </div>
+            <div class="mt-5">
+                <h5 class="text-light d-inline-block">Books Favorited: </h5>
+                {% for user in all_users %}
+                    {% if user['id'] == session['user_id'] %}
+                        <p class="numadded text-light d-inline-block">25</p>
+                    {%endif%}
+                {%endfor%}
+            </div>
+            <div class="container mt-5 pt-5 h-50">
+                <a href="/profile" class="btn btn-block btn-light">View Profile</a>
+                <a href="/logout" class="btn btn-block btn-light mt-5">Log Out</a>
+            </div>
+        </div>
+        <div class="text-left align-top register container d-inline-block border border-secondary col-4 mt-5 p-4 ml-5">
+            <div class="container-fluid text-center">
+                <h3 class=""><u>Add a Note</u></h3>
+                {% with messages = get_flashed_messages() %}
+                    {% if messages %}
+                        {% for message in messages %}
+                            <p class="text-danger">{{message}}</p>
+                        {% endfor %}
+                    {% endif %}
+                {% endwith %}
+                <form action="/add_note" method="post">
+                    <div class="form-group">
+                        <h4>{{book['title']}}:</h4>
+                        <h4>{{book['author']}}:</h4>
+                        <h4>Chapter (optional):</h4>
+                        <input class="form-control" type="text" name="title" id="">
+                        <h4>Page (optional):</h4>
+                        <input class="form-control" type="text" name="author" id="">
+                        <h4>Note:</h4>
+                        <textarea class="form-control" name="description" id="" cols="30" rows="6"></textarea>
+                        <input type="hidden" name="uploaded_by_id" value="{{ session['user_id'] }}">
+                        <input class="btn btn-dark mt-5" type="submit" value="Add">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="text-left align-top register container d-inline-block border border-secondary col-4 mt-5 p-4 offset-1">
+            <div class="container-fluid text-center">
+                <h3 class=""><u>All Books</u></h3>
+                <div class="container-fluid text-left library">
+                    {% for book in all_books %}
+                        <h5 class="normFont">{{ book['title'] }}</h5>
+                        <h5 class="normFont">By {{ book['author'] }}</h5>
+                        <p class="normFont">{{ book['description'] }}</p>
+                        <form action="/add_to_favs" method="post">
+                        <input type="hidden" name="book_id" value="{{ book[ 'id'] }}">
+                        <input type="hidden" name="user_id" value="{{ session[ 'user_id'] }}">
+                        
+                        {% for fav in all_favs %}
+                            {% if fav['book_id'] == book['id']  %}
+                                {% if fav['user_id'] == session['user_id'] %}
+                                <p class="normFont">This is one of your favorites.</p>
+                                {% endif %}
+                            {% endif %}
+                        {% endfor %}
+                        <input type="submit" class="addbook text-dark normFont" value="+ Add to Favorites">
+                        </form>
+                        <hr>
+                    {% endfor %}
+                </div>
+            </div>
+
+
+        </div>
+        <div class="footer"></div>
+    </div>
+</body>
+</html>

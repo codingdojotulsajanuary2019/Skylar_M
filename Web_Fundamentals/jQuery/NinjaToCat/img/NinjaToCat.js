@@ -1,0 +1,25 @@
+$(document).ready(function(){
+    $(".tile0").click(function(){
+        $(this).attr("src","cat0.png");
+    });
+});
+$(document).ready(function(){
+    $(".tile1").click(function(){
+        $(this).attr("src","cat1.png");
+    });
+});
+$(document).ready(function(){
+    $(".tile2").click(function(){
+        $(this).attr("src","cat2.png");
+    });
+});
+$(document).ready(function(){
+    $(".tile3").click(function(){
+        $(this).attr("src","cat3.png");
+    });
+});
+$(document).ready(function(){
+    $(".tile4").click(function(){
+        $(this).attr("src","cat4.png");
+    });
+});

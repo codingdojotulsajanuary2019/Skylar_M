@@ -1,0 +1,19 @@
+﻿@model CRUDelicious.Models.DishBag
+
+<div class="container-fluid">
+    <div class="header container-fluid text-center mb-5">
+        <h1 class="title">Welcome to CRUDelicious</h1>
+    </div>
+    <div class="subheader container-fluid">
+        <h3 class="border-bottom d-inline-block col-8 pb-3">Check out some recent dishes!</h3>
+        <a href="new/dish" class="d-inline-block col-2 offset-1">Add a Dish</a>
+    </div>
+    <div class="display-dishes col-9">
+        @{
+            foreach(var dish in Model.DisplayDishes)
+            {
+                <a href="@dish.Id">@dish.Name</a> <p>by @dish.Chef</p>
+            }
+        }
+    </div>
+</div>

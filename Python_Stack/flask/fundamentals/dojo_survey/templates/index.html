@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Dojo Survey</title>
+    <style>
+    
+    
+    
+    </style>
+</head>
+<body class='container-fluid bg-secondary'>
+    <div class="container-fluid bg-secondary text-light text-center">
+        <div class="header">
+            <h1>Dojo Survey</h1>
+        </div>
+        <div class="survey">
+            <h3>Please complete the survey below</h3>
+            <form action="/addresult" method="post">
+                <p>Name: <input type="text" name="student_name"></p>
+                <p>Dojo Location: <select class='btn btn-dark' name="location" id=""></p>
+                    <option value="Dallas">Dallas</option>
+                    <option value="San Francisco">San Francisco</option>
+                    <option value="San Jose">San Jose</option>
+                    <option value="Tulsa">Tulsa</option>
+                </select>
+                <p>Favorite Language: <select class='btn btn-dark' name="fav_lang" id=""></p>
+                    <option value="Python">Python</option>
+                    <option value="Ruby">Ruby</option>
+                    <option value="C#">C#</option>
+                    <option value="Java">Java</option>
+                </select>
+                <p>Comment: <textarea name="comment" cols="30" rows="4"></textarea>
+                    <div class="submit"><input class='btn-dark text-light' type="submit" value="Submit"></div>
+            </form>
+            {% with messages = get_flashed_messages() %}     <!-- declare a variable called messages -->
+                {% if messages %}                            <!-- check if there are any messages -->
+                    {% for message in messages %}            <!-- loop through the messages -->
+                        <p>{{message}}</p>                   <!-- display each message in a paragraph tag -->
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+        </div>
+    </div>
+</body>
+</html>

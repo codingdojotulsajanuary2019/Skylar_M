@@ -1,0 +1,258 @@
+body *{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+div.container{
+    width: 990px;
+    height: 1350px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: 990px;
+    padding-top: 52px;
+}
+
+    div.header{
+       width: 843px;
+       height: 56px; 
+       margin: 0px 50px 10px 74px;
+       border-radius: 5px;
+       background-image: linear-gradient(#fcfcfc, #d4d4d4)
+    }
+        div.header img{
+            height: 56px;
+            display: inline-block;
+        }
+        div.header h3{
+            display: inline-block;
+            height: 38px;
+            padding-left: 15px;
+            padding-right: 15px;
+            vertical-align: top;
+            margin: 0px 0px;
+            font-size: 12pt;
+            padding-top: 18px;
+        }
+        div.header div.searchbox{
+            display: inline-block;
+            height: 56px;
+            width: 208px;
+            margin: 0px 0px 0px 130px;
+        }
+            div.header .searchbar{
+                height: 24px;
+                width: 174px;
+                margin: 15px 0px 0px 16px;
+                border-radius: 11px;
+            }
+
+            div.header #arrow{
+                height: 28px;
+                position: absolute;
+                margin: 15px 0px 0px -30px;
+            }
+            div.header #icon{
+                height: 28px;
+                position: absolute;
+                margin: 15px 0px 0px -176px;
+            }
+
+    
+
+
+    
+    div.box1{
+        width: 843px;
+        height: 390px;
+        margin: 17px 50px 0px 74px;
+        border-radius: 10px;
+        background-color: #525252
+    }
+        div.box1 img{
+            width: 843px;
+            margin: 0px;
+        }
+        div.box1 .menubar{
+            background-color: #525252;
+            height: 33px;
+        }
+        div.box1 .a10{
+            display: inline-block;
+            height: 20px;
+            margin: 0px 0px 0px 0px;
+            font-size: 10pt;
+            padding-top: 5px;
+            padding-left: 17px;
+            color: white;
+        }
+        div.box1 .menuopt{
+            display: inline-block;
+            height: 20px;
+            margin: 0px 0px 0px 0px;
+            font-size: 10pt;
+            padding-top: 5px;
+            padding-left: 17px;
+            color: #98c2e4;     
+        }
+        div.box1 p{
+            display: inline-block;
+            font-size: 16pt;
+            margin: 0px -10px 0px 10px;
+            color: #cacaca;
+            font-style: italic;
+        }
+
+
+    div.box2{
+        width: 843px;
+        height: 482px;
+        margin: 16px 50px 0px 74px;
+        border: 1px solid #c9c9c9;
+        border-radius: 8px;
+        background-color: #f7f7f7
+    }
+        div.box2 .subheader{
+            height: 100px;
+            border: 1px solid #c9c9c9;
+            background-color: white;
+        }
+            
+            div.box2 #title{
+                display: inline-block;
+                font-size: 30px;
+                color: #cacaca;
+                margin: 33px 20px 33px 25px;
+
+            }
+            div.box2 #line{
+                display: inline-block;
+                height: 50px;
+                width: 1px;
+                background-color: #cacaca;
+                margin: 0px 80px 25px 0px;
+                
+            }
+            div.box2 div.browsebutton{
+                display: inline-block;
+                height: 40px;
+                width: 250px;
+                margin: 30px 0px 0px -60px;
+                padding-left: 0px;
+                padding-top: 0px;
+                background-image: linear-gradient(#62b4da, #4d8cac);
+                border-radius: 5px;
+                vertical-align: top;
+
+            }
+            div.box2 #browse{
+                display: inline-block;
+                color: white;
+                font-size: 16pt;
+                margin: 8px 0px 0px 23px;
+                vertical-align: top;
+            }
+            div.box2 #arrows{
+                display: inline-block;
+                color: white;
+                margin: 8px 0px 0px 32px;
+                font-size: 16pt;
+                
+            }
+        div.box2 div.next{
+            display: inline-block;
+            height: 280px;
+            width: 203px
+        }
+            div.box2 .next .icons{
+                height: 30px;
+                margin: 32px 0px 0px 22px;
+            }
+            div.next h5{
+                display: inline-block;
+                height: 22px;
+                margin: 0px 0px 0px 13px;
+                padding-top: 8px;
+                padding left: 0px;
+                font-size: 12pt;
+            }
+            div.next .box2info{
+                font-size: 10pt;
+                margin: 10px 2px 0px 22px;
+            }
+            div.box2 .dividenext{
+                display: inline-block;
+                width: 1px;
+                height: 296px;
+                background-color: #cacaca;
+                margin: 0px 0px 0px 0px;
+            }
+            div.next .display{
+                width: 180px;
+            }
+            div.next #one{
+                margin: 10px 0px 0px 15px;
+            }    
+            div.next #two{
+                margin: 10px 0px 0px 15px;
+                
+            }    
+            div.next #three{
+                margin: 5px 0px 0px 15px;
+                
+            }    
+            div.next #four{
+                margin: 20px 0px 0px 15px;
+                
+            } 
+            div.box2 .navbutton{
+                display: inline-block;
+                background-image: linear-gradient(#62b4da, #4d8cac);
+                height: 20px;
+                width: 129px;
+                margin: 0px 20px 0px 22px;
+                padding-top: 5px;
+                padding-left: 36px;
+                border-radius: 3px;
+                color: white;
+
+            }   
+            div.box2 hr{
+                color: #e2e2e2;
+            }
+            
+    div.footer{
+        width: 843px;
+        height: 299px;
+        margin: 30px 50px 0px 74px;
+    }
+        div.footer .footmenu{
+            height: 359px;
+            width: 136px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        div.footmenu h6{
+            margin-bottom: 16px;
+
+        }
+        div.footer .line3{
+            width: 130px;
+            height: 1px;
+            background-color: #cacaca;
+        }
+        div.footer .footlinks{
+            margin: 22px 0px 0px 0px;
+            font-size: 8pt;
+        }
+
+        p#toll{
+            margin-top: 20px;
+            font-size: 10pt;
+            margin-left: 70px;
+        }
+        p#toll span{
+            color: #62b4da;
+        }

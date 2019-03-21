@@ -1,0 +1,61 @@
+body, html{
+    height: 100%;
+    font-family: 'Major Mono Display', monospace;
+    background-color: rgb(67, 57, 75);
+}
+.bg {
+    background-image: url('../images/index.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg2 {
+    background-image: url('../images/profile2.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg3 {
+    background-image: url('../images/library.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.header h1{
+    font-size: 3.5em;
+}
+div.header{
+    padding: 10px;
+    background-color: rgb(67, 57, 75);
+}
+.register{
+    border-radius: .45rem!important;
+    background: rgb(211,211,211);
+    background: rgba(211,211,211, 0.8);
+}
+.leftbar{
+    height: 100vh;
+    background-color: rgb(59, 59, 59);
+}
+.numadded{
+    font-size: 1.5em;
+}
+.library{
+    height: 65vh;
+    overflow-y: scroll;
+}
+.normFont{
+    font-family: Arial, Helvetica, sans-serif !important;
+
+}
+.addbook{
+    background:none!important;
+    color:inherit;
+    border:none; 
+    padding:0!important;
+    cursor: pointer;
+
+}

@@ -1,0 +1,35 @@
+@model ViewModel
+
+<div class="container-fluid">
+    <div class="header container-fluid text-center mb-5">
+        <a style="font-size: 2em;" href="/" class="d-inline-block">Chefs</a><h2 class="d-inline-block"> | </h2><a style="font-size: 2em;" href="dishes" class="d-inline-block">Dishes</a>
+    </div>
+    <div class="subheader container-fluid mb-3">
+        <h3 class="border-bottom d-inline-block col-8 pb-3">Fill out the form below to add a new Dish to the menu.</h3>
+        <a href="new_chef" class="d-inline-block col-2 offset-1">Add a Chef</a>
+    </div>
+    <div class="col-9">
+        <form action="create_dish" method="post">
+            <span class="text-danger" asp-validation-for="dish.Name"></span>
+            <input class="form-control mb-3 col-5" asp-for="dish.Name" placeholder="Dish Name">
+            <select class="form-control col-4 mb-3" name="ChefId">
+                @{
+                    foreach(var chef in Model.DisplayChefs)
+                    {
+                        <option value="@chef.ChefId">@chef.FirstName @chef.LastName</option>
+                    }
+                }
+            </select>
+            <select class="form-control col-1 mb-3" name="Tastiness">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <span class="text-danger" asp-validation-for="dish.Calories"></span>
+            <input class="form-control mb-3 col-3" asp-for="dish.Calories" placeholder="Calories">
+            <input class="btn btn-outline-success" type="submit" value="Submit">
+        </form>
+    </div>
+</div>

@@ -1,0 +1,19 @@
+@using CRUDelicious.Models
+@model Dish
+
+<div class="container-fluid">
+    <div class="header container-fluid text-center mb-5">
+        <h1 class="title">@Model.Name</h1>
+    </div>
+    <div class="subheader container-fluid">
+        <h3 class="border-bottom d-inline-block col-8 pb-3">@Model.Chef</h3>
+        <a href="/" class="d-inline-block col-2 offset-1">Home</a>
+    </div>
+    <div class="display-dish col-9">
+        <p>@Model.Decsription</p>
+        <h4>Calories: </h4><p>@Model.Calories</p>
+        <h4>Tastiness: </h4><p>@Model.Tastiness</p>
+        <a href="@Model.Id/edit">Edit</a>
+        <a href="@Model.Id/delete">Delete</a>
+    </div>
+</div>

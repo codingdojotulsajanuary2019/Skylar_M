@@ -1,0 +1,8 @@
+@using ViewModelFun.Models
+@model List<User>
+
+<h1>Here is a list of numbers.</h1>
+<p>Brought to you by rendering from a model!</p>
+@foreach(var user in Model){
+    <h5>@user.FirstName @user.LastName</h5>
+}

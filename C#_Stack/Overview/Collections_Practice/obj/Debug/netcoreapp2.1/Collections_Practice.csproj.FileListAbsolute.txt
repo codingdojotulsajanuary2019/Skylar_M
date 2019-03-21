@@ -1,0 +1,11 @@
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Collections_Practice/bin/Debug/netcoreapp2.1/Collections_Practice.deps.json
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Collections_Practice/bin/Debug/netcoreapp2.1/Collections_Practice.runtimeconfig.json
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Collections_Practice/bin/Debug/netcoreapp2.1/Collections_Practice.runtimeconfig.dev.json
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Collections_Practice/bin/Debug/netcoreapp2.1/Collections_Practice.dll
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Collections_Practice/bin/Debug/netcoreapp2.1/Collections_Practice.pdb
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Collections_Practice/obj/Debug/netcoreapp2.1/Collections_Practice.csprojAssemblyReference.cache
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Collections_Practice/obj/Debug/netcoreapp2.1/Collections_Practice.csproj.CoreCompileInputs.cache
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Collections_Practice/obj/Debug/netcoreapp2.1/Collections_Practice.AssemblyInfoInputs.cache
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Collections_Practice/obj/Debug/netcoreapp2.1/Collections_Practice.AssemblyInfo.cs
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Collections_Practice/obj/Debug/netcoreapp2.1/Collections_Practice.dll
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Collections_Practice/obj/Debug/netcoreapp2.1/Collections_Practice.pdb

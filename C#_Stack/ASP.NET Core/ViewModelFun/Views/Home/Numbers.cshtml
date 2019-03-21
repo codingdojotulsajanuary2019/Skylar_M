@@ -1,0 +1,8 @@
+@using ViewModelFun.Models
+@model int[]
+
+<h1>Here is a list of numbers.</h1>
+<p>Brought to you by rendering from a model!</p>
+@foreach(var num in Model){
+    <h5>@num</h5>
+}

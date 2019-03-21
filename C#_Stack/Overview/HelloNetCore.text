@@ -1,0 +1,41 @@
+Sophias-MacBook-Air:FirstCSharp skylarmacias$ dotnet --version
+2.1.403
+Sophias-MacBook-Air:FirstCSharp skylarmacias$ cd ..
+Sophias-MacBook-Air:Overview skylarmacias$ dotnet new console -o SecondCSharp
+The template "Console Application" was created successfully.
+
+Processing post-creation actions...
+Running 'dotnet restore' on SecondCSharp/SecondCSharp.csproj...
+  Restoring packages for /Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/SecondCSharp/SecondCSharp.csproj...
+  Generating MSBuild file /Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/SecondCSharp/obj/SecondCSharp.csproj.nuget.g.props.
+  Generating MSBuild file /Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/SecondCSharp/obj/SecondCSharp.csproj.nuget.g.targets.
+  Restore completed in 385.59 ms for /Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/SecondCSharp/SecondCSharp.csproj.
+
+Restore succeeded.
+
+Sophias-MacBook-Air:Overview skylarmacias$ cd SecondCSharp/
+Sophias-MacBook-Air:SecondCSharp skylarmacias$ dotnet new console
+Creating this template will make changes to existing files:
+  Overwrite   SecondCSharp.csproj
+  Overwrite   Program.cs
+
+Rerun the command and pass --force to accept and create.
+Sophias-MacBook-Air:SecondCSharp skylarmacias$ dotnet build
+Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Restore completed in 71.45 ms for /Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/SecondCSharp/SecondCSharp.csproj.
+  SecondCSharp -> /Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/SecondCSharp/bin/Debug/netcoreapp2.1/SecondCSharp.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.64
+Sophias-MacBook-Air:SecondCSharp skylarmacias$ dotnet /bin/SecondCSharp.dll
+No executable found matching command "dotnet-/bin/SecondCSharp.dll"
+Sophias-MacBook-Air:SecondCSharp skylarmacias$ dotnet /Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/SecondCSharp/bin/Debug/netcoreapp2.1/SecondCSharp.dll
+Hello World!
+Sophias-MacBook-Air:SecondCSharp skylarmacias$ dotnet run
+Hello World!
+Sophias-MacBook-Air:SecondCSharp skylarmacias$

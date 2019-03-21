@@ -1,0 +1,36 @@
+﻿@model ChefsAndDishes.Models.ViewModel
+
+<div class="container-fluid">
+    <div class="header container-fluid text-center mb-5">
+        <h2 class="d-inline-block">Chefs</h2><h2 class="d-inline-block"> | </h2><a style="font-size: 2em;" href="dishes" class="d-inline-block">Dishes</a>
+    </div>
+    <div class="subheader container-fluid">
+        <h3 class="border-bottom d-inline-block col-8 pb-3">Check out our roster of Chefs!</h3>
+        <a href="new_chef" class="d-inline-block col-2 offset-1">Add a Chef</a>
+    </div>
+    <div class="display-chefs col-9">
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr class="d-flex">
+                    <th class="col-6" scope="col">Name</th>
+                    <th class="col-3" scope="col">Age</th>
+                    <th class="col-3" scope="col"># of Dishes</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    foreach(var chef in Model.DisplayChefs)
+                    {
+                        TimeSpan AgeInDays = DateTime.Today.Date-chef.DOB.Date;
+                        var Age = Math.Floor(Convert.ToInt32(AgeInDays.ToString("ddddd"))/365.242);
+                        <tr class="d-flex">
+                            <td class="col-6">@chef.FirstName @chef.LastName</td>
+                            <td class="col-3">@Age</td>
+                            <td class="col-3">@chef.CreatedDishes.Count</td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

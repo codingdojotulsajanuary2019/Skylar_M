@@ -1,0 +1,52 @@
+5
+[2,2,5],[2,2,5],[6,8,5],[6,8,5]
+[2,2,5]
+true
+["Coding", "Coding", "Coding", "Coding"]
+[5, "Coding", "Dojo", 4]
+10
+No array was given?
+
+----------------------------------
+
+function printAverage(x){
+   sum = 0;
+   for(var i = 0; i<x.length; i++){
+     sum = sum + x[i];
+   }
+  return sum/x.length;
+}
+y = printAverage([1,2,3]);
+console.log(y); // should log 2
+  
+y = printAverage([2,5,8]);
+console.log(y); // should log 5
+
+----------------------------------
+
+function returnOddArray(x){
+  arr=[] 
+  for(i=1; i<x+1; i++){
+    if(i%2 === 1){
+      arr.push(i);
+    }
+  }
+  return arr;
+}
+y = returnOddArray(255);
+console.log(y);
+
+---------------------------------
+
+function squareValue(x){
+  var newarr = []; 
+  for(i=0; i<x.length; i++){
+       newarr.push(x[i] * x[i]);
+   }
+   return newarr;
+}
+y = squareValue([1,2,3]);
+console.log(y);
+  
+y = squareValue([2,5,8]);
+console.log(y);

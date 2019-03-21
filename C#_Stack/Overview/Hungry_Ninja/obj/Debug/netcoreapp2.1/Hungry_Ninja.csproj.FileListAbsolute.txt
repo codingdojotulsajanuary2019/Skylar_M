@@ -1,0 +1,11 @@
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Hungry_Ninja/bin/Debug/netcoreapp2.1/Hungry_Ninja.deps.json
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Hungry_Ninja/bin/Debug/netcoreapp2.1/Hungry_Ninja.runtimeconfig.json
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Hungry_Ninja/bin/Debug/netcoreapp2.1/Hungry_Ninja.runtimeconfig.dev.json
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Hungry_Ninja/bin/Debug/netcoreapp2.1/Hungry_Ninja.dll
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Hungry_Ninja/bin/Debug/netcoreapp2.1/Hungry_Ninja.pdb
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Hungry_Ninja/obj/Debug/netcoreapp2.1/Hungry_Ninja.csprojAssemblyReference.cache
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Hungry_Ninja/obj/Debug/netcoreapp2.1/Hungry_Ninja.csproj.CoreCompileInputs.cache
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Hungry_Ninja/obj/Debug/netcoreapp2.1/Hungry_Ninja.AssemblyInfoInputs.cache
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Hungry_Ninja/obj/Debug/netcoreapp2.1/Hungry_Ninja.AssemblyInfo.cs
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Hungry_Ninja/obj/Debug/netcoreapp2.1/Hungry_Ninja.dll
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/Hungry_Ninja/obj/Debug/netcoreapp2.1/Hungry_Ninja.pdb

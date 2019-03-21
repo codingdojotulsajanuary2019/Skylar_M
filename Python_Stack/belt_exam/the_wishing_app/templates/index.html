@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+    <title>The Wishing App</title>
+</head>
+<body>
+    <div class="bg container-fluid p-0">
+        <div class="header border-radius-bottom text-center m-0 mb-3">
+            <h1 class="text-center d-inline-block text-light">The Wishing App</h1>
+        </div>
+        <div class="body">
+            <h5 class="text-center text-light">Welcome! Sign in to make a wish!</h5>
+            <div class="text-left register container d-inline-block border border-secondary col-4 mt-5 pt-4 pb-4 offset-1">
+                    <h3 class=""><u>Please complete the form below to register.</u></h3>
+                    <hr>
+                    {% with messages = get_flashed_messages() %}
+                        {% if messages %}
+                            {% for message in messages %}
+                                <p class="text-danger">{{message}}</p>
+                            {% endfor %}
+                        {% endif %}
+                    {% endwith %}
+                    <form class="form-group" action="/processnewuser" method="post">
+                        <h5 class="text-dark mt-3">First Name:</h5><input class="textinput form-control" type="text" name="first_name" id="">
+                        <h5 class="text-dark mt-3">Last Name:</h5><input class="textinput form-control" type="text" name="last_name" id="">
+                        <h5 class="text-dark mt-3">Email Address:</h5><input class="textinput form-control" type="text" name="email" id="">
+                        <h5 class="text-dark mt-3">Password: </h5><input class="form-control" type="text" name="password">
+                        <h5 class="text-dark mt-3">Confirm Password: </h5><input class="form-control" type="text" name="password_confirmation">
+                        <div class="text-center container-fluid">
+                            <input class="btn-dark mt-5" type="submit" value="Submit">
+                        </div>
+                    </form>
+            </div>
+            <div class="text-left register container d-inline-block border border-secondary col-4 mt-5 pt-4 pb-4 offset-2 align-top">
+                <h3 class="text-dark"><u>Login.</u></h3>
+                <hr>
+                <form action="/login" method="POST">
+                    <h5 class="text-dark mt-3">Email: </h5><input class="form-control" type="text" name="existing_user_email" id="">
+                    <h5 class="text-dark mt-3">Password: </h5><input class="form-control" type="text" name="existing_user_password" id="">
+                    <div class="text-center container-fluid">
+                        <input class="btn-dark mt-5" type="submit" value="Login">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="footer"></div>
+    </div>
+</body>
+</html>

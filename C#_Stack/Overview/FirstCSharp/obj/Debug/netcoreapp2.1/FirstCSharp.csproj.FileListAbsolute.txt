@@ -1,0 +1,11 @@
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/FirstCSharp/bin/Debug/netcoreapp2.1/FirstCSharp.deps.json
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/FirstCSharp/bin/Debug/netcoreapp2.1/FirstCSharp.runtimeconfig.json
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/FirstCSharp/bin/Debug/netcoreapp2.1/FirstCSharp.runtimeconfig.dev.json
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/FirstCSharp/bin/Debug/netcoreapp2.1/FirstCSharp.dll
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/FirstCSharp/bin/Debug/netcoreapp2.1/FirstCSharp.pdb
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/FirstCSharp/obj/Debug/netcoreapp2.1/FirstCSharp.csprojAssemblyReference.cache
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/FirstCSharp/obj/Debug/netcoreapp2.1/FirstCSharp.csproj.CoreCompileInputs.cache
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/FirstCSharp/obj/Debug/netcoreapp2.1/FirstCSharp.AssemblyInfoInputs.cache
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/FirstCSharp/obj/Debug/netcoreapp2.1/FirstCSharp.AssemblyInfo.cs
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/FirstCSharp/obj/Debug/netcoreapp2.1/FirstCSharp.dll
+/Users/skylarmacias/Documents/Coding_Dojo_Projects/C#_Stack/Overview/FirstCSharp/obj/Debug/netcoreapp2.1/FirstCSharp.pdb

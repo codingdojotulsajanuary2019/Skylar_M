@@ -1,0 +1,57 @@
+undefined
+6, 10
+3, 7
+15, 15, 10, 15
+0, 2, 4, 6, 8, 10, 12, 14
+0, 0, 0, 1, 0, 2
+0, 0, 0, 0, 1, 2, 0, 2, 4, undefined
+0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 0, 2, 4, 6, 8, 15
+
+-------
+Part 2
+-------
+
+function printUpTo(x){
+    for(var i = 0; i < x+1; i++){
+        console.log(i);
+    }
+}
+
+----------------------------------
+
+function printSum(x){
+  var sum = 0;
+  for(var i=1; i<x+1; i++){
+    sum += i;
+    console.log(i);
+    console.log(sum);
+    
+  }
+  return sum;
+}
+y = printSum(255)
+console.log(y)
+
+-----------------------------------
+
+function printSumArray(x){
+  var sum = 0;
+  for(var i=0; i<x.length; i++) {
+    sum += x[i];
+  }
+  return sum;
+}
+console.log( printSumArray([1,2,3]) );
+
+-----------------------------------
+
+function printSumArray(x){
+  var lar = 0;
+  for(var i=0; i<x.length; i++) {
+    if(x[i] > lar){
+      lar = x[i]
+    }
+  }
+  return lar;
+}
+console.log( printSumArray([1,30,5,7]) );
