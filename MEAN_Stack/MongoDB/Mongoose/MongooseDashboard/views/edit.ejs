@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Quoting Dojo</title>
+</head>
+<body class="grey lighten-5">
+    <div class="header center-align">
+        <h1 class="center-align">Pokemon Pack</h1>
+    </div>
+    <div class="white">
+        <hr>
+        <a href="/" class="btn" style="margin-top: 2rem; margin-left: 2rem;">Back to Pack</a>
+        <br>
+        <div class="container row">
+            <form action="/pokemon/edit/<%= Pokemon[0]._id %>" method="post">
+                <div class="row input-field">
+                    <input type="text" class="col s6 offset-s3" id="name" name="name" value="<%= Pokemon[0].name %>">
+                    <label class="col offset-s3" for="name">Name</label>
+                </div>
+                <div class="row input-field">
+                    <input type="text" class="col s6 offset-s3" id="type" name="type" value="<%= Pokemon[0].type %>">
+                    <label class="col offset-s3" for="type">Type</label>
+                </div>
+                <div class="row input-field">
+                    <input type="text" class="col s6 offset-s3" id="move1" name="move1" value="<%= Pokemon[0].move1 %>">
+                    <label class="col offset-s3" for="move1">Move 1</label>
+                </div>
+                <div class="row input-field">
+                    <input type="text" class="col s6 offset-s3" id="move2" name="move2" value="<%= Pokemon[0].move2 %>">
+                    <label class="col offset-s3" for="move2">Move 2</label>
+                </div>
+                <div class="row">
+                    <% if(messages.submission) { %>
+                        <% for (var x of messages.submission) { %>
+                            <h6 class="red-text col s9 offset-s3"><%= x %></h6>
+                        <% } %>
+                    <% } %>
+                    <input class="btn col offset-s3" type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>

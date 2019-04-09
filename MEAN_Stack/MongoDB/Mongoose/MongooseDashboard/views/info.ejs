@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Quoting Dojo</title>
+</head>
+<body class="grey lighten-5">
+    <div class="header center-align">
+        <h1 class="center-align">Pokemon Pack</h1>
+    </div>
+    <div class="white">
+        <hr>
+        <a href="/" class="btn" style="margin-top: 2rem; margin-left: 2rem;">Back to Pack</a>
+        <br>
+        <div class="container row">
+            <h3><%= Pokemon[0].name %></h3>
+            <h5>Type: <%= Pokemon[0].type %></h5>
+            <h5>Moves: <%= Pokemon[0].move1 %>, <%= Pokemon[0].move2 %></h5>
+            <br>
+            <a href="/pokemon/edit/<%= Pokemon[0]._id %>" class="btn">Edit Pokemon</a>
+        </div>
+        <div class="container row">
+            <form action="/pokemon/delete/<%= Pokemon[0]._id %>" method="post">
+                <input class="btn" type="submit" value="Remove Pokemon from Pack">
+            </form>
+        </div>
+    </div>
+</body>

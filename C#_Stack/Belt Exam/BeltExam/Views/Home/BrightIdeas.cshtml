@@ -1,0 +1,36 @@
+@model ViewModel;
+<div class="container-fluid bg-light border rounded">
+    <div class="header container-fluid mb-4 mt-2 text-center">
+        <h1 class="border-bottom" style="" class="text-center">Welcome to the Main Page, @Model.User.Alias!</h1>
+    </div>
+    <div class="header container-fluid">
+        <div class="text-right">
+            <a class="align-top" href="/logout">Logout</a>
+        </div>
+    </div>
+    <div class="container-fluid ml-0 mr-0 border-bottom mb-3">
+        <form class="col-8 d-inline-block" action="/PostIdea" method="post">
+            <textarea class="form-control col-7 d-inline-block" name="Content" rows="4" placeholder="post something witty here..."></textarea>
+            <input type="hidden" name="UserId" value="@Model.User.UserId">
+            <input style="vertical-align: top;" class="btn btn-outline-success d-inline-block ml-3" type="submit" value="Post">
+        </form>
+    </div>
+    <div class="posts">
+        @{
+            foreach(var idea in Model.DisplayIdeas)
+            {
+                <div class="idea mb-5">
+                    <h3 class="d-inline-block">@idea.Creator.Alias says:</h3>
+                    <p class="d-inline-block">@idea.Content</p>
+                    <br>
+                    <h6 class="d-inline-block">@idea.UsersWhoLiked.Count people liked this!</h6>
+                    <form  href="/LikeThisIdea" class="d-inline-block ml-5">
+                        <input type="hidden" name="IdeaId" value="@idea.IdeaId">
+                        <input type="hidden" name="UserId" value="@Model.User.UserId">
+                        <input type="submit" value="Like">
+                    </form>
+                </div>
+            }
+        }
+    </div>
+</div>

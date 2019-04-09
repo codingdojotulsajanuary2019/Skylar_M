@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Basic Mongoose App</title>
+</head>
+
+<body class="grey lighten-5">
+    <div class="header center-align">
+        <h1 class="center-align">Survey Form</h1>
+    </div>
+    <div class="white">
+        <hr>
+        <br>
+        <div class="container">
+            <form action="/users" method="post">
+                <div class="row input-field">
+                    <input type="text" class="col s6 offset-s3" id="name" name="name">
+                    <label class="col offset-s3" for="name">Name</label>
+                </div>
+                <div class="row input-field">
+                    <input type="number" class="col s6 offset-s3" id="age" name="age">
+                    <label class="col offset-s3" for="age">Age</label>
+                </div>
+                <div class="row">
+                    <input class="btn col offset-s3" type="submit" value="Submit">
+                </div>
+            </form>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% for(var user in Users){ %>
+                        <tr>
+                            <td><%= Users[user].name %></td>
+                            <td><%= Users[user].age %></td>
+                        </tr>
+                        <% } %>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function(){
+            $('select').formSelect();
+        });
+    </script>
+</body>
+</html>

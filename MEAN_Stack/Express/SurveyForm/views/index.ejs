@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Counter</title>
+</head>
+<body class="grey lighten-5">
+    <div class="header center-align">
+        <h1 class="center-align">Survey Form</h1>
+    </div>
+    <div class="white">
+        <hr>
+        <br>
+        <div class="container">
+            <form action="" class="" method="post">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input name="name" id="name" type="text" class="validate">
+                        <label for="name">Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s6">
+                        <select name="location">
+                            <option value="" disabled selected>Choose your option</option>
+                            <option value="Dallas">Dallas</option>
+                            <option value="San Francisco">San Francisco</option>
+                            <option value="San Jose">San Jose</option>
+                            <option value="Seattle">Seattle</option>
+                            <option value="Tulsa">Tulsa</option>
+                        </select>
+                        <label>Dojo Location</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s6">
+                        <select name="stack">
+                            <option value="" disabled selected>Choose your option</option>
+                            <option value="Python">Python</option>
+                            <option value="C#">C#</option>
+                            <option value="MEAN">MEAN</option>
+                        </select>
+                        <label>Favorite Stack</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s10">
+                        <textarea name="comments" id="textarea1" class="materialize-textarea"></textarea>
+                        <label>Comment</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function(){
+            $('select').formSelect();
+        });
+    </script>
+</body>
+</html>

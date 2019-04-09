@@ -92,11 +92,13 @@
                         {% for fav in all_favs %}
                             {% if fav['book_id'] == book['id']  %}
                                 {% if fav['user_id'] == session['user_id'] %}
-                                <p class="normFont">This is one of your favorites.</p>
+                                    <p class="normFont">This is one of your favorites.</p>
                                 {% endif %}
                             {% endif %}
                         {% endfor %}
-                        <input type="submit" class="addbook text-dark normFont" value="+ Add to Favorites">
+                        {% if book['id'] not in all_fav %}
+                            <input type="submit" class="addbook text-dark normFont" value="+ Add to Favorites">
+                        {% endif %}
                         </form>
                         <hr>
                     {% endfor %}

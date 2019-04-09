@@ -1,0 +1,19 @@
+1. use my_first_db
+2. db.createCollection("students")
+3. 
+4. db.students.insert({name: "Skylar", home_state: "OK", lucky_number: 7, birthday: {month: 10, day: 21, year: 1994}}),
+5. db.students.find({}).pretty()
+6. db.students.find({home_state: "TX"}).pretty()
+7. db.students.find({lucky_number: {$gt: 3}}).pretty(), db.students.find({lucky_number: {$lte: 10}}).pretty(), db.students.find({$and: [{lucky_number: {$gte: 1}}, {lucky_number: {$lte: 9}}]}).pretty()
+8. db.students.update({}, {$set: {interests: ["coding", "brunch", "MongoDB"]}}, {multi: true})
+9. db.students.update({name: "Skylar"}, {$push: {interests: {$each: ["skateboarding", "music"]}}})
+10. db.students.update({name: "Susie"}, {$push: {interests: "taxes"}})
+11. db.students.update({name: "Susie"}, {$pull: {interests: "taxes"}})
+12. db.students.remove({home_state: "CA"})
+13. db.students.remove({name: "Susie"})
+14. db.students.remove({lucky_number: {$gt: 5}}, {justOne: true})
+15. db.students.update({}, {$set: {belts: 0}}, {multi: true})
+16. db.students.update({home_state: "OK"}, {$inc: {belts: 1}}, {multi: true})
+17. db.students.update({}, {$rename: {"belts": "belts_earned"}}, {multi: true})
+18. db.students.update({}, {$unset: {lucky_number: ""}}, {multi: true})
+19. db.students.update({}, {$set: {updated_on: Date()}}, {multi: true})

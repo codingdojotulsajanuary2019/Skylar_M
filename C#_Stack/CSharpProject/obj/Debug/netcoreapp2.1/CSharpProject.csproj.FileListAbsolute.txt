@@ -1,0 +1,60 @@
+C:\Users\Dsike\Documents\All Assignments\cros_s\C#\ORM\CSharpProject\bin\Debug\netcoreapp2.1\CSharpProject.deps.json
+C:\Users\Dsike\Documents\All Assignments\cros_s\C#\ORM\CSharpProject\bin\Debug\netcoreapp2.1\CSharpProject.runtimeconfig.json
+C:\Users\Dsike\Documents\All Assignments\cros_s\C#\ORM\CSharpProject\bin\Debug\netcoreapp2.1\CSharpProject.runtimeconfig.dev.json
+C:\Users\Dsike\Documents\All Assignments\cros_s\C#\ORM\CSharpProject\bin\Debug\netcoreapp2.1\CSharpProject.dll
+C:\Users\Dsike\Documents\All Assignments\cros_s\C#\ORM\CSharpProject\bin\Debug\netcoreapp2.1\CSharpProject.pdb
+C:\Users\Dsike\Documents\All Assignments\cros_s\C#\ORM\CSharpProject\bin\Debug\netcoreapp2.1\CSharpProject.Views.dll
+C:\Users\Dsike\Documents\All Assignments\cros_s\C#\ORM\CSharpProject\bin\Debug\netcoreapp2.1\CSharpProject.Views.pdb
+C:\Users\Dsike\Documents\All Assignments\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\CSharpProject.csprojAssemblyReference.cache
+C:\Users\Dsike\Documents\All Assignments\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\CSharpProject.csproj.CoreCompileInputs.cache
+C:\Users\Dsike\Documents\All Assignments\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\CSharpProject.RazorAssemblyInfo.cache
+C:\Users\Dsike\Documents\All Assignments\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\CSharpProject.RazorAssemblyInfo.cs
+C:\Users\Dsike\Documents\All Assignments\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\CSharpProject.AssemblyInfoInputs.cache
+C:\Users\Dsike\Documents\All Assignments\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\CSharpProject.AssemblyInfo.cs
+C:\Users\Dsike\Documents\All Assignments\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\CSharpProject.TagHelpers.input.cache
+C:\Users\Dsike\Documents\All Assignments\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\CSharpProject.TagHelpers.output.cache
+C:\Users\Dsike\Documents\All Assignments\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\CSharpProject.RazorCoreGenerate.cache
+C:\Users\Dsike\Documents\All Assignments\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Dsike\Documents\All Assignments\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Dsike\Documents\All Assignments\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Dsike\Documents\All Assignments\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Dsike\Documents\All Assignments\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\CSharpProject.RazorTargetAssemblyInfo.cache
+C:\Users\Dsike\Documents\All Assignments\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\CSharpProject.RazorTargetAssemblyInfo.cs
+C:\Users\Dsike\Documents\All Assignments\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\CSharpProject.Views.pdb
+C:\Users\Dsike\Documents\All Assignments\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\CSharpProject.dll
+C:\Users\Dsike\Documents\All Assignments\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\CSharpProject.pdb
+C:\Users\Dsike\Documents\All Assignments\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\CSharpProject.csproj.CopyComplete
+C:\Users\Dsike\Documents\All Assignments\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\Razor\Views\Home\Success.g.cshtml.cs
+C:\Users\Dsike\Documents\All Assignments\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\Razor\Views\Home\Stats.g.cshtml.cs
+C:\Users\Dsike\Documents\All Assignments\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\Razor\Views\Home\Login.g.cshtml.cs
+C:\Users\Dsike\Documents\All Assignments\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\Razor\Views\Home\MainEvent.g.cshtml.cs
+C:\Users\cross\Documents\cros_s\C#\ORM\CSharpProject\bin\Debug\netcoreapp2.1\CSharpProject.deps.json
+C:\Users\cross\Documents\cros_s\C#\ORM\CSharpProject\bin\Debug\netcoreapp2.1\CSharpProject.runtimeconfig.json
+C:\Users\cross\Documents\cros_s\C#\ORM\CSharpProject\bin\Debug\netcoreapp2.1\CSharpProject.runtimeconfig.dev.json
+C:\Users\cross\Documents\cros_s\C#\ORM\CSharpProject\bin\Debug\netcoreapp2.1\CSharpProject.dll
+C:\Users\cross\Documents\cros_s\C#\ORM\CSharpProject\bin\Debug\netcoreapp2.1\CSharpProject.pdb
+C:\Users\cross\Documents\cros_s\C#\ORM\CSharpProject\bin\Debug\netcoreapp2.1\CSharpProject.Views.dll
+C:\Users\cross\Documents\cros_s\C#\ORM\CSharpProject\bin\Debug\netcoreapp2.1\CSharpProject.Views.pdb
+C:\Users\cross\Documents\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\CSharpProject.csprojAssemblyReference.cache
+C:\Users\cross\Documents\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\CSharpProject.csproj.CoreCompileInputs.cache
+C:\Users\cross\Documents\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\CSharpProject.RazorAssemblyInfo.cache
+C:\Users\cross\Documents\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\CSharpProject.RazorAssemblyInfo.cs
+C:\Users\cross\Documents\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\CSharpProject.AssemblyInfoInputs.cache
+C:\Users\cross\Documents\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\CSharpProject.AssemblyInfo.cs
+C:\Users\cross\Documents\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\CSharpProject.TagHelpers.input.cache
+C:\Users\cross\Documents\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\CSharpProject.TagHelpers.output.cache
+C:\Users\cross\Documents\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\CSharpProject.RazorCoreGenerate.cache
+C:\Users\cross\Documents\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\cross\Documents\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\Razor\Views\Home\Login.g.cshtml.cs
+C:\Users\cross\Documents\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\Razor\Views\Home\MainEvent.g.cshtml.cs
+C:\Users\cross\Documents\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\Razor\Views\Home\Stats.g.cshtml.cs
+C:\Users\cross\Documents\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\Razor\Views\Home\Success.g.cshtml.cs
+C:\Users\cross\Documents\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\cross\Documents\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\cross\Documents\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\cross\Documents\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\CSharpProject.RazorTargetAssemblyInfo.cache
+C:\Users\cross\Documents\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\CSharpProject.RazorTargetAssemblyInfo.cs
+C:\Users\cross\Documents\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\CSharpProject.Views.pdb
+C:\Users\cross\Documents\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\CSharpProject.dll
+C:\Users\cross\Documents\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\CSharpProject.pdb
+C:\Users\cross\Documents\cros_s\C#\ORM\CSharpProject\obj\Debug\netcoreapp2.1\CSharpProject.csproj.CopyComplete
